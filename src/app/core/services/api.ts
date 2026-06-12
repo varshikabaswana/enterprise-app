@@ -5,7 +5,6 @@ import { inject, Injectable, Service } from '@angular/core';
     providedIn: 'root',
 })
     
-
 export class Api {
     readonly baseUrl = '';
     private httpClient = inject(HttpClient);
